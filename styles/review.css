@@ -1,0 +1,145 @@
+/*TITLE*/
+#title{
+    background-color: #96B6C5;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+.brands{
+    font-family: 'Lato', sans-serifs;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.links{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 18px;
+}
+.nav-item{
+    padding: 0 8px;
+}
+.body{
+    background-color: #F1F0E8;
+    font-family: 'Lato', sans-serifs;
+}
+.btn a {
+    text-decoration: none;
+    color: inherit;
+}
+.btn a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.downloads{
+    margin: 5% 3% 5% 0;
+}
+/*CAROUSEL*/
+#testimonials{
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #96B6C5;
+}
+hr{
+    color: #EEE0C9;
+    border-width: 3px;
+}
+.reviews{
+    font-weight: 700;
+    font-size: 50px;
+}
+.buyer-profile{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.buyer-comment{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 14%;
+}
+/*CTA*/
+#cta{
+    margin-top: -20px;
+    text-align: center;
+}
+/*FOOTER*/
+#footer{
+    padding: 7% 14%;
+    text-align: center;
+}
+.foot-icon{
+    padding: 20px 10px;
+}
+.secret a {
+    color: inherit;
+    text-decoration: none;
+}
+p{
+    color: #7d5f31;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 5%;
+    color: #ADC4CE;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/*RESPONSIVENESS*/
+@media (max-width: 1024px){
+    #testimonials{
+        margin: 6rem;
+    }
+    .buyer-comment{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px){
+    #testimonials{
+        margin: 4rem;
+    }
+    .buyer-comment{
+        font-size: 1.5rem;
+    }
+    .reviews{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 320px){
+    #title{
+        padding: 1rem;
+        text-align: center;
+    }
+    .brands{
+        font-family: 'Lato', sans-serifs;
+        font-size: 25px;
+    }
+    .downloads button{
+        width: 160px;
+    }
+    #testimonials{
+        margin: 1rem;
+    }
+    .buyer-comment{
+        font-size: 1.2rem;
+    }
+    .reviews{
+        font-size: 2rem;
+    }
+    .buyer-profile{
+        border-radius: 100%;
+        width: 25%;
+        margin: 10px;
+    }
+}

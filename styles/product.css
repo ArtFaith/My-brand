@@ -1,0 +1,101 @@
+/*TITLE*/
+#title{
+    background-color: #96B6C5;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+.brands{
+    font-family: 'Lato', sans-serifs;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.links{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 18px;
+}
+.nav-item{
+    padding: 0 8px;
+}
+.body{
+    background-color: #F1F0E8;
+    font-family: 'Lato', sans-serifs;
+}
+/*PRODUCT*/
+#product{
+    padding: 5rem;
+    text-align: center;
+}
+.card {
+    height: 100%;
+    margin-bottom: 20px;
+}
+.card-header {
+    height: 200px;
+}
+.prod-head, .price-head {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.prod-img {
+    width: 100%;
+}
+/*FOOTER*/
+p{
+    color: #7d5f31;
+}
+#footer{
+    text-align: center;
+}
+.secret a {
+    color: inherit;
+    text-decoration: none;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 5%;
+    color: #ADC4CE;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*RESPONSIVENESS*/
+@media (max-width: 768px) {
+    .prod-head, .price-head {
+        font-size: 2rem;
+    }
+    .prod-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    #title{
+        padding: 1rem;
+        text-align: center;
+    }
+    .brands{
+        font-family: 'Lato', sans-serifs;
+        font-size: 25px;
+    }
+    .prod-head, .price-head {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .prod-img {
+        width: 100%;
+    }
+    .back-to-top{
+        width: 3%;
+        padding: 5px;
+    }
+}
